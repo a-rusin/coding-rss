@@ -1,0 +1,60 @@
+.icon {
+
+   cursor: pointer; 
+   display: inline-block;
+
+   /// icon-square
+
+    &-square {
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+        /// icon-square_violet
+
+        &_violet {
+            background-color: $color-violet;
+        }
+
+        /// icon-square_yellow
+
+        &_yellow {
+            background-color: $color-primary;
+        }
+
+        /// icon-square_red
+
+        &_red {
+            background-color: $color-red;
+        }
+
+        /// icon-square_blue
+
+        &_blue {
+            background-color: $color-blue;
+        }
+
+    }
+
+   /// icon_play
+
+    &_play {
+        background-image: url("../../img/icons/play.svg");
+        width: 18px;
+        height: 19px;
+    }
+
+}
+
+.ico {
+
+    &_arrow {
+        background-image: url("../../img/icons/arrow.svg");
+        width: 12px;
+        height: 17px;
+    }
+
+}

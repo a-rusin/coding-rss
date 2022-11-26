@@ -1,0 +1,46 @@
+.tools {
+
+
+    /// tools__wrapper
+
+    &__wrapper {
+        padding-bottom: 90px;
+        background-image: url("../../img/backgrounds/tools-bg.svg");
+        background-position: center bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    /// tools__title
+
+    &__title {
+        max-width: 462px;
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    /// tools__button
+
+    &__button {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+}
+
+.tool {
+
+    /// tool__title
+
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    /// tool__icon
+
+    &__icon {
+        margin-bottom: 16px;
+    }
+
+}

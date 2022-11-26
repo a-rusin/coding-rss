@@ -1,0 +1,40 @@
+.promo {
+    
+    padding: 30px 0px;
+
+    /// promo__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center
+    }
+
+    /// promo__content
+
+    &__content {
+        padding-right: 66px;
+    }
+
+    /// promo__title
+
+    &__title {
+        margin: 0px 0px 30px;
+    }
+
+    /// promo__buttons>*
+
+    &__buttons>* {
+        margin-right: 44px;
+    }
+
+    /// promo__text
+
+    &__text {
+        max-width: 487px;
+        margin: 0px 0px 45px;
+        @extend %font-popins;
+        @include font(1.8rem, 2.8rem, 400); /// fz lh fw fs
+    }
+    
+}

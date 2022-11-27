@@ -1,0 +1,42 @@
+.tags {
+    display: flex;
+
+    >* {
+        margin: 0px 7px 0px 0px;
+    }
+
+}
+
+.tag {
+    border-radius: 90px;
+    padding: 0px 14px;
+    @include font(1.3rem, 2.8rem, 400);
+    @extend %transition;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $color-primary;
+        color: $color-light;
+    }
+
+    /// tag_selected
+    
+    &_selected {
+        background-color: $color-primary;
+        color: $color-light;
+    }
+
+    /// tag_bordered
+    
+    &_bordered {
+        border: 1px solid $color-border;
+    }
+
+    /// tag_colored
+    
+
+    &_colored {
+        background-color: $color-tag;
+    }
+
+}

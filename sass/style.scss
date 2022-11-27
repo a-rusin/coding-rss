@@ -11,9 +11,11 @@
 @import "base/buttons";
 @import "base/icons";
 @import "base/logo";
+@import "base/tags";
 
 
 /// Components
+@import "components/about-us";
 @import "components/contacts-us";
 @import "components/navigation";
 @import "components/promo";
@@ -23,8 +25,9 @@
 
 /// Layout
 @import "layout/columns";
+@import "layout/footer";
 @import "layout/wrapper";
-@import "layout/headers"; 
+@import "layout/headers";
 
 
 /// Pages

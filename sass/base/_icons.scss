@@ -3,6 +3,20 @@
    cursor: pointer; 
    display: inline-block;
 
+   &-round {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &_white {
+            background-color: $color-light;
+        }
+
+    }
+
    /// icon-square
 
     &-square {
@@ -55,6 +69,36 @@
         background-image: url("../../img/icons/arrow.svg");
         width: 12px;
         height: 17px;
+    }
+
+    &_snake {
+        background-image: url('../img/icons/snake.svg');
+        width: 18px;
+        height:14px;
+    }
+
+    &_heart {
+        background-image: url('../../img/icons/heart.svg');
+        width: 17px;
+        height:15px;
+    }
+    
+    &_clock {
+        background-image: url('../../img/icons/clock.svg');
+        width: 15px;
+        height:17px;
+    }
+    
+    &_phone {
+        background-image: url('../../img/icons/phone.svg');
+        width: 13px;
+        height: 13px;
+    }
+    
+    &_letter {
+        background-image: url('../../img/icons/letter.svg');
+        width: 11px;
+        height: 8px;
     }
 
 }

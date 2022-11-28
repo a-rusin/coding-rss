@@ -1,3 +1,13 @@
+.logo {
+    display: flex;
+
+    &-object {
+        width: 160px;
+        height: 30px;
+    }
+
+}
+
 .logo-path {
     @extend %transition;
 }

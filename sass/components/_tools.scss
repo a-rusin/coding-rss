@@ -25,11 +25,21 @@
     &__button {
         margin-top: 60px;
         text-align: center;
+
+        @include media-tablet {
+            margin-top: 20px;
+        }
     }
 
 }
 
 .tool {
+
+    text-align: center;
+
+    @include media-tablet {
+        margin-bottom: 47px;
+    }
 
     /// tool__title
 

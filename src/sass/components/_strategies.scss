@@ -40,6 +40,10 @@
     @include media-tablet {
         overflow: hidden;
     }
+
+    &_hidden {
+        display: none;
+    }
     
     /// strategy-wrapper
 
@@ -76,15 +80,37 @@
 
     /// strategy__image
     
-    &__image {
+    // &__image {
 
-        @extend %transition;
+    //     @extend %transition;
 
-        &:hover {
-            opacity: 0.5;
-            cursor: pointer;
+    //     &:hover {
+    //         opacity: 0.5;
+    //         cursor: pointer;
+    //     }
+
+    // }
+
+}
+
+.article-modal__content {
+    .strategy__image {
+        width: 100%;
+        @include media-tablet {
+            position: static;
         }
-
     }
 
+    .strategy__date {
+        @include font(1.3rem, $fweight: normal);
+        margin: 0 0 5px;
+    }
+
+    .strategy__name {
+        margin-bottom: 10px;
+    }
+
+    .strategy__text {
+        margin: 0 0 12px;
+    }
 }

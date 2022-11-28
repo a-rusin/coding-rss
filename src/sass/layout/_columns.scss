@@ -20,6 +20,12 @@
     @include media-mobile {
         @include columns(100%);
     }
+
+    &:after {
+        content: '';
+        width: 30%;
+        display: block;
+    }
 }
 
 .layout-2-column {

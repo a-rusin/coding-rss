@@ -56,7 +56,7 @@
    /// icon_play
 
     &_play {
-        background-image: url("../../img/icons/play.svg");
+        background-image: url("../../src/img/icons/play.svg");
         width: 18px;
         height: 19px;
     }
@@ -66,37 +66,37 @@
 .ico {
 
     &_arrow {
-        background-image: url("../../img/icons/arrow.svg");
+        background-image: url("../../src/img/icons/arrow.svg");
         width: 12px;
         height: 17px;
     }
 
     &_snake {
-        background-image: url('../img/icons/snake.svg');
+        background-image: url("../../src/img/icons/snake.svg");
         width: 18px;
         height:14px;
     }
 
     &_heart {
-        background-image: url('../../img/icons/heart.svg');
+        background-image: url('../../src/img/icons/heart.svg');
         width: 17px;
         height:15px;
     }
     
     &_clock {
-        background-image: url('../../img/icons/clock.svg');
+        background-image: url('../../src/img/icons/clock.svg');
         width: 15px;
         height:17px;
     }
     
     &_phone {
-        background-image: url('../../img/icons/phone.svg');
+        background-image: url('../../src/img/icons/phone.svg');
         width: 13px;
         height: 13px;
     }
     
     &_letter {
-        background-image: url('../../img/icons/letter.svg');
+        background-image: url('../../src/img/icons/letter.svg');
         width: 11px;
         height: 8px;
     }

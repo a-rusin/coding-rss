@@ -1,0 +1,17 @@
+$progressbar-height: 7px;
+
+
+.progressbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: $progressbar-height;
+    width: 100%;
+    background-color: $color-primary;
+
+    &-line {
+        height: $progressbar-height;
+        background-color: $color-additional;
+    }
+
+}

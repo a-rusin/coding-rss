@@ -5,6 +5,7 @@ html {
 body {
     @extend %font-open-sans;
     @include font(1.6rem, 2.6rem, normal); /// fz lh fw fs
+    @extend %custom-scroll;
 }
 
 h1 {

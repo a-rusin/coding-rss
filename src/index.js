@@ -99,6 +99,8 @@ window.onload = function () {
     /// Generate Base Modal from Modal Class
     addToolsClickHandler();
 
+    window.addEventListener('scroll', changeScrollValue)
+
 }
 
 const addTagsClickHandler = () => {
@@ -204,4 +206,8 @@ const renderArticleModalWindow = (article) => {
     let modal = new ArticleModal('article-modal', article);
     console.log(modal.title);
     modal.renderModal();
+}
+
+const changeScrollValue = () => {
+    document.querySelector('.progressbar-line').style.width = window.scrollY * 100 / (document.body.scrollHeight - window.innerHeight) + '%';
 }

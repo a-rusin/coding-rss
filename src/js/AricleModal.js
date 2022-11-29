@@ -20,7 +20,7 @@ export class ArticleModal extends Modal {
             template += `<img class="strategy__image" src="${this.urlToImage}" alt="strategy">`;
         }
 
-        if (this.title || this.tags || this.content || this.date) {
+        if (this.title || this.tags || this.content || this.date) { 
             template += `<div class="strategy__content">`;
 
             if(this.date) {

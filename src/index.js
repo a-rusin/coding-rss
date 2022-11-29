@@ -1,6 +1,6 @@
 import { Article } from './js/Article'
 import { ArticleModal } from './js/AricleModal'
-import { Modal } from './js/Modal'
+import { Modal } from './js/Modal' 
 
 const data = [
     {
@@ -9,7 +9,7 @@ const data = [
         urlToImage: './src/img/strategies/1.jpg',
         tags: ['Art', 'Design'],
         content: 'Knowing yourself is the first, and a very critical step in the process of planning your future. How can you figure out what you want to do with your life if you don’t know: What am I going to do with the  rest of my life? What is my dream job? What do I enjoy doing? What’s my passion? What kind of career fits my personality?',
-        date: '01.01.2020'
+        date: '01.01.2020' 
     },
     {
         id: 2,
@@ -100,6 +100,10 @@ window.onload = function () {
     addToolsClickHandler();
 
     window.addEventListener('scroll', changeScrollValue)
+
+    /// upBtn
+    upBtnClickHandler(); 
+    
 
 }
 
@@ -210,4 +214,22 @@ const renderArticleModalWindow = (article) => {
 
 const changeScrollValue = () => {
     document.querySelector('.progressbar-line').style.width = window.scrollY * 100 / (document.body.scrollHeight - window.innerHeight) + '%';
+    if (window.scrollY > 50) {
+        document.querySelector('.up-button').style.bottom = "30px";
+    } else {
+        document.querySelector('.up-button').style.bottom = "-80px";
+    }
 }
+
+const upBtnClickHandler = () => {
+    document.querySelector('.up-button').addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+    })
+}
+
+console.log('test');

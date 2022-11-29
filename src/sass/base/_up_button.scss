@@ -1,0 +1,30 @@
+.up-button {
+    position: fixed;
+    bottom: -80px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: $color-primary;
+    border-radius: 5px;
+    cursor: pointer;
+    @extend %transition;
+
+    @include media-tablet {
+        height: 40px;
+        width: 40px;
+    }
+
+    @include media-mobile {
+        height: 40px;
+        width: 40px;
+    }
+
+
+    &:hover {
+        background-color: $color-additional;
+    }
+
+
+
+}

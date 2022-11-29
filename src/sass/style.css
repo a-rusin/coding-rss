@@ -1,4 +1,4 @@
-.footer-navigation__links a, .navigation__link, .tag, .logo-path, .link-button, .button {
+.footer-navigation__links a, .navigation__link, .up-button, .tag, .logo-path, .link-button, .button {
   transition: all 0.3s ease-out;
 }
 
@@ -658,6 +658,33 @@ h5 {
 }
 .tag_colored {
   background-color: #F5F5F5;
+}
+
+.up-button {
+  position: fixed;
+  bottom: -80px;
+  right: 30px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: #FF9900;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .up-button {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .up-button {
+    height: 40px;
+    width: 40px;
+  }
+}
+.up-button:hover {
+  background-color: #d35024;
 }
 
 .about-us {

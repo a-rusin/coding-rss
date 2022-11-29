@@ -1,4 +1,4 @@
-#Hello everyone
+Hello everyone!
 
 This project was made based on a lesson from Rolling Scopes School - Friday Live Coding!
 
